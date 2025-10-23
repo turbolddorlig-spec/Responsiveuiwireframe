@@ -1,0 +1,39 @@
+{
+  "name": "zoodshopy-logistics-system",
+  "version": "1.0.0",
+  "description": "ZoodShopy Logistics - Modern order management system with Supabase backend, React frontend, and Tailwind CSS",
+  "type": "module",
+  "keywords": ["logistics", "order-management", "supabase", "react", "typescript", "tailwind", "mongolian", "zoodshopy"],
+  "author": "ZoodShopy Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "predeploy": "bash 🚀_PRE_DEPLOY_CHECK.sh",
+    "check-config": "bash 🔧_AUTO_FIX_VITE_CONFIG.sh"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.400.0",
+    "date-fns": "^2.30.0",
+    "sonner": "^2.0.3",
+    "react-hook-form": "^7.55.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.0",
+    "class-variance-authority": "^0.7.0",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.0"
+  }
+}
